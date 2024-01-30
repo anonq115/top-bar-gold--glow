@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Bar</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000; /* Black background for the body */
+    }
+
+    .top-bar {
+      background: linear-gradient(to right, #FFEB3B, #FFD700, #EDB78B); /* Enhanced gold yellow gradient */
+      height: 8px; /* Updated height to 8px */
+      width: 100%;
+      border-radius: 10px; /* Rounded ends */
+      animation: pulse 2s infinite; /* Pulsating glow animation */
+    }
+
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 2px 5px rgba(255, 215, 0, 0.5);
+      }
+      50% {
+        box-shadow: 0 8px 15px rgba(255, 215, 0, 0.8);
+      }
+      100% {
+        box-shadow: 0 2px 5px rgba(255, 215, 0, 0.5);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar"></div>
+
+  <!-- Your content goes here -->
+
+</body>
+</html>
